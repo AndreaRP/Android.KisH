@@ -5,10 +5,10 @@ $bichos = $_POST['bichos'];
 //$bichos="[{'pk':'1','nPokemon':'151','zonaCapturado':'Unknown','nombre':'Mew','felicidad':'0','hambre':'0','nombreGenerico':'Mew','experiencia':'0'},{'pk':'2','nPokemon':'147','zonaCapturado':'Unknown','nombre':'Dratini','felicidad':'0','hambre':'0','nombreGenerico':'Dratini','experiencia':'0'},{'pk':'3','nPokemon':'149','zonaCapturado':'Unknown','nombre':'Antenilla','felicidad':'0','hambre':'10','nombreGenerico':'Dragonite','experiencia':'0']";
 
 if (isset($bichos) && $bichos != ""){ 
-$servername = "sql100.byethost6.com";
-$username = "b6_16108246";
-$password = "thebeatles1";
-$dbname = "b6_16108246_KishBD";
+$servername = "*******";
+$username = "*********";
+$password = "*********";
+$dbname = "**********";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 $login = mysqli_real_escape_string($conn, $login);
