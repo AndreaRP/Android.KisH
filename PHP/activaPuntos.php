@@ -28,7 +28,6 @@ $sel="SELECT punto_pk FROM Punto
       LIMIT 3";
       $puntos = mysqli_query($conn, $sel);        
     $puntosRandom = mysqli_fetch_all($puntos, MYSQLI_ASSOC);
-      //var_dump($puntosRandom);  
 if(!empty($puntosRandom)){
     foreach ($puntosRandom as $punto) {
     $sql = "UPDATE Punto   
