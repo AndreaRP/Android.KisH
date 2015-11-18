@@ -3,10 +3,10 @@
 
 if (isset($_POST['campoPunto']) && $_POST['campoPunto'] != ""){ 
 $codigoPunto = $_POST['campoPunto']; 
-$servername = "sql100.byethost6.com";
-$username = "b6_16108246";
-$password = "thebeatles1";
-$dbname = "b6_16108246_KishBD";
+$servername = "********";
+$username = "**********";
+$password = "********";
+$dbname = "***********";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
