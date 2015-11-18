@@ -1,6 +1,6 @@
 <?php
     $login = $_POST['campoLogin']; 
-    $con = mysqli_connect("sql100.byethost6.com","b6_16108246","thebeatles1", "b6_16108246_KishBD"); 
+    $con = mysqli_connect("*******","**********","**********", "***********"); 
 // Check connection
 if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
