@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Andrea/Documents/Mis%20Documentos/DAM/KantoisHere/KisHCaptura1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Cámara Pokemon</string>
+    <string name="conseguido">Has conseguido atrapar un %s </string>
+    <string name="huyo">El %s salvaje huyó...</string>
+</resources>

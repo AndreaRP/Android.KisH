@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="maps.rubio.andrea.kantoishere.Principal">
+
+    <item
+        android:id="@+id/logOut"
+        app:showAsAction="never"
+        android:title="@string/logout"/>
+    <item
+        android:id="@+id/eliminarUser"
+        app:showAsAction="never"
+        android:title="@string/borrar_user"/>
+</menu>

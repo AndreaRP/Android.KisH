@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">KantoisHere</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_test">Map</string>
+    <string name="log_in">Log In</string>
+    <string name="button_registrar">Registrar</string>
+    <string name="login_hint">Nombre</string>
+    <string name="password_hint">Password</string>
+    <string name="ir_registrar">Registrarme</string>
+    <string name="ir_login">Logearme</string>
+    <string name="registrar">Registrar nuevo usuario</string>
+    <string name="loggear">Log In</string>
+    <string name="title_activity_principal">Principal</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="ir_a_maps">Comenzar a buscar</string>
+    <string name="entra_zona">Has entrado en la hierba alta, prepárate para buscar pokémon...</string>
+    <string name="sale_zona">Has salido de la hierba alta, estás en una zona segura</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bicho_salvaje">Un pokemon salvaje apareció</string>
+    <string name="action_example">Example action</string>
+    <string name="nombre_bicho">Qué nombre quieres poner?</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Desconectar</string>
+    <string name="borrar_user">Eliminar mi cuenta</string>
+    <string name="confirmacion_baja">Todos tus datos se perderán y se liberarán tus Pokémon, ¿Deseas continuar?</string>
+    <string name="confirmacion_baja_si">Adelante</string>
+    <string name="confirmacion_baja_no">¡NO!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_capturar">Capturar</string>
+    <string name="drawer_comienza_aventura">A la aventura</string>
+    <string name="drawer_web">Web de KisH</string>
+    <string name="drawer_mis_bichos">Mi equipo</string>
+    <string name="imagen">Imagen</string>
+    <string name="sin_hambre">%s ya no quiere comer más</string>
+    <string name="guardar">Guardar y volver a la lista</string>
+    <string name="dar_comer">Dar de comer</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gps_inactivo">Para acceder al mapa debes tener el GPS activado, ¿Deseas ir a Ajustes para activarlo?</string>
+    <string name="title_activity_bicho_item">BichoItem</string>
+    <string name="title_activity_cuidar">Cuidar</string>
+    <string name="texto_mapa">Para activar el buscador de pokemon, presiona sobre el mapa</string>
+    <string name="sin_bichos">Aún no tienes ningún pokemon, adéntrate en la hierba alta y hazte con algunos</string>
+    <string name="campo_vacio">Por favor, introduce tu nombre y pass</string>
+    <string name="oak_lines"> ¡Me llamo OAK! Estudio a los POKÉMON como profesión. Pero primero dime como te llamas.</string>
+    <string name="si">Si</string>
+    <string name="liberar">Liberar</string>
+    <string name="despedida">Hasta siempre %s</string>
+    <string name="no">No</string>
+    <string name="conseguido">Has conseguido atrapar un %s </string>
+    <string name="huyo">El %s salvaje huyó...</string>
+    <string name="poner_mote">¿Quieres ponerle un mote a tu %s?</string>
+    <!--
+  <string name="promptGPS">El GPS está desactivado. La aplicación necesita utilizar el GPS de tu móvil, ¿Quieres activarlo?</string>
+  <string name="promptGPS_Si">Ir a configuración</string>
+  <string name="promptGPS_No">Salir de KisH</string>
+  -->
+</resources>

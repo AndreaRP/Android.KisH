@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="items_menu">
+        <item>@string/drawer_comienza_aventura</item>
+        <item>@string/drawer_mis_bichos</item>
+        <item>@string/drawer_web</item>
+    </string-array>
+
+</resources>
