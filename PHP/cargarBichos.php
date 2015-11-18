@@ -1,12 +1,9 @@
 <?php 
 	#Se mira que el campo login no ste vacio
  if (isset($_POST['campoLogin']) && $_POST['campoLogin'] != ""){ 
-//if(true){
- 	#Se asginan las variables
-    // $login='prueba';
  	$login = $_POST['campoLogin']; 
  	#Conexion a la bd
- 	$con = mysqli_connect("sql100.byethost6.com","b6_16108246","thebeatles1", "b6_16108246_KishBD"); 
+ 	$con = mysqli_connect("**********","*********","*********", "***********"); 
  	#Se comprueba la conexion
  	if (mysqli_connect_errno()) {
  	 echo 'Error de conexion: '.mysqli_connect_error(); 
@@ -27,7 +24,6 @@
      inner join Punto on punto_pk = BichoCap.punto_fk
      inner join Zona on Punto.zona_fk = Zona.zona_pk
      where usuario_fk = (select usuario_pk from Usuario where login = '".$login."')";
-         //echo $query."";
  	 	$misBichos = mysqli_query($con, $query);          
         $bichos = mysqli_fetch_all($misBichos, MYSQLI_ASSOC);
  	 	#Sacamos el resultado en formato json 
