@@ -1,8 +1,6 @@
 <?php
-//$login = $_POST['campoLogin']; 
+
 $bichos = $_POST['bichos']; 
-//$login='bla';
-//$bichos="[{'pk':'1','nPokemon':'151','zonaCapturado':'Unknown','nombre':'Mew','felicidad':'0','hambre':'0','nombreGenerico':'Mew','experiencia':'0'},{'pk':'2','nPokemon':'147','zonaCapturado':'Unknown','nombre':'Dratini','felicidad':'0','hambre':'0','nombreGenerico':'Dratini','experiencia':'0'},{'pk':'3','nPokemon':'149','zonaCapturado':'Unknown','nombre':'Antenilla','felicidad':'0','hambre':'10','nombreGenerico':'Dragonite','experiencia':'0']";
 
 if (isset($bichos) && $bichos != ""){ 
 $servername = "*******";
@@ -12,7 +10,7 @@ $dbname = "**********";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 $login = mysqli_real_escape_string($conn, $login);
-//$bichos = mysqli_real_escape_string($conn, $bichos);
+
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
