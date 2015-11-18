@@ -4,10 +4,10 @@ include 'PasswordHash.php';
 if (isset($_POST['campoLogin']) && $_POST['campoLogin'] != "" && isset($_POST['campoPass']) && $_POST['campoPass'] != ""){ 
      	$login = $_POST['campoLogin']; 
  	$pass = $_POST['campoPass'];
-$servername = "sql100.byethost6.com";
-$username = "b6_16108246";
-$password = "thebeatles1";
-$dbname = "b6_16108246_KishBD";
+$servername = "*********";
+$username = "***********";
+$password = "*********";
+$dbname = "**********";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
