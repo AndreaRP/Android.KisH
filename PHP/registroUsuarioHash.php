@@ -10,7 +10,7 @@ include 'PasswordHash.php';
     $passHash=create_hash($pass);
 
  	#Conexion a la bd
-	$con = mysqli_connect("mysql13.000webhost.com","a5018682_root","admin1", "a5018682_KisHDB");
+	$con = mysqli_connect("**********","*********","*********", "********");
 
     //insercion en BD	
     $sql = "INSERT INTO Usuario (login, pwd) VALUES ('".$login."', '".$passHash."')";
