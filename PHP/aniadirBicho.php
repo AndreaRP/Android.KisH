@@ -4,10 +4,10 @@ $codigoBicho = $_POST['codigoBicho'];
 $codigoPunto = $_POST['codigoPunto']; 
 $nombre = $_POST['nombre']; 
 if (isset($login) && $login != "" && isset($codigoBicho) && $codigoBicho != 0 && isset($codigoPunto) && $codigoPunto != 0 && isset($nombre) && $nombre != ""){ 
-$servername = "sql100.byethost6.com";
-$username = "b6_16108246";
-$password = "thebeatles1";
-$dbname = "b6_16108246_KishBD";
+$servername = "*********";
+$username = "**********";
+$password = "*********";
+$dbname = "*************";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
