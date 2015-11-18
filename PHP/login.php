@@ -6,7 +6,7 @@ include 'PasswordHash.php';
  	$login = $_POST['campoLogin']; 
  	$pass = $_POST['campoPass'];
  	#Conexion a la bd
- 	$con = mysqli_connect("sql100.byethost6.com","b6_16108246","thebeatles1", "b6_16108246_KishBD"); 
+ 	$con = mysqli_connect("**********","**********","***********", "*********"); 
  	#Se comprueba la conexion
  	if (mysqli_connect_errno()) {
  	 echo 'Error de conexion: '.mysqli_connect_error(); 
@@ -15,8 +15,6 @@ include 'PasswordHash.php';
  	 #Se quitan posibles caracteres especiales [NUL (ASCII 0), \n, \r, \, ', ", y Control-Z] (sql injection)
  	 $login = mysqli_real_escape_string($con, $login); 
  	 $pass = mysqli_real_escape_string($con, $pass);
- 	 #se hashea la pass
- 	 #$pass = password_hash($pass, PASSWORD_DEFAULT);
  	 #Se comprueban login y pass hasheada
  	 $usuario = mysqli_query($con, "SELECT login, pwd, usuario_pk FROM Usuario WHERE login = '".$login."'"); 
  	 #Se comprueba que se han devuelto resultados 
